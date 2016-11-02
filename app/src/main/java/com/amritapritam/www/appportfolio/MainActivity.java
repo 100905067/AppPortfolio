@@ -32,22 +32,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String msg = "This button will launch my ";
         switch (v.getId()){
             case  R.id.firstProj:
-                Toast.makeText(getApplicationContext(),msg+"Popular Movies Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Popular Movies Project",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.secProj:
-                Toast.makeText(getApplicationContext(),msg+"Stock Hawk Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Stock Hawk Project",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.thirdProj:
-                Toast.makeText(getApplicationContext(),msg+"Build It Bigger Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Build It Bigger Project",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.fourthProj:
-                Toast.makeText(getApplicationContext(),msg+"Make Your App Material Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Make Your App Material Project",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.fifthProj:
-                Toast.makeText(getApplicationContext(),msg+"Go Ubiquitous Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Go Ubiquitous Project",Toast.LENGTH_SHORT).show();
                 break;
             default:
-                Toast.makeText(getApplicationContext(),msg+"Capstone Project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg+"Capstone Project",Toast.LENGTH_SHORT).show();
                 break;
         }
     }
